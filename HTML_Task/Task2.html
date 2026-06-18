@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <div>
+        <h1>University Admission Form</h1>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>Name: </label>
+                <input type="text" placeholder="Enter your name" maxlength="60"><br><br>
+
+                <label>E-mail: </label>
+                <input type="email" placeholder="Enter your email" required><br><br>
+
+                <label>Gender</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="others">Others<br><br>
+
+                <label>Interest: </label>
+                <input type="checkbox" value="singing">Singing
+                <input type="checkbox" value="gardening">Gardening
+                <input type="checkbox" value="playing">Playing<br><br>
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Academical Information</legend>
+                <label>Subject Choice:</label>
+                <select required>
+                    <option>Select option</option>
+                    <option>OOP2</option>
+                    <option>Math-6</option>
+                    <option value="web tech">Web Tech</option>
+                    <option value="ML">ML</option>
+                    <option value="Chemistry">Chemistry</option>
+                   
+
+                </select>
+                <br><br>
+                <label>Date: </label>
+                <input type="date">
+                <br><br>
+
+                <label>Upload Transcript: </label>
+                <input type="file"  name="Transcript" accept=".pdf,application/pdf">
+                
+            </fieldset>
+
+            <input type="submit">
+            <input type="reset">
+          
+        </form>
+    </div>
+</body>
+</html>
