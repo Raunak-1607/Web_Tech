@@ -1,5 +1,5 @@
 #Mbox{
-    height: 750px;
+    /* height: 750px; */
     width: 800px;
     background-color: #E9F3FE;
     border: 2px solid #6C8DFF;
@@ -8,7 +8,7 @@
     margin-left: 230px;
 }
 #head{
-    height:90px;
+    height:100px;
     background-color: navy;
     color: white;
 }
