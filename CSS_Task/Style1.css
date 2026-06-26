@@ -1,0 +1,53 @@
+#Mbox{
+    height: 750px;
+    width: 800px;
+    background-color: #E9F3FE;
+    border: 2px solid #6C8DFF;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 230px;
+}
+#head{
+    height:90px;
+    background-color: navy;
+    color: white;
+}
+#AIUB{
+    margin-left: 280px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#ADD{
+    margin-left: 480px;
+}
+
+#ProfilePhoto{
+    height: 200px;
+    width : 200px;
+    
+    margin-top: 70px;
+    margin-left: 300px;
+    border-radius: 50%;
+    background-image: url(profilePhoto.jpeg);
+    background-size: cover;
+}
+#Name{
+    margin-left: 320px;
+}
+h3{
+    margin-left: 70px;
+}
+p{
+    margin-left: 100px;
+}
+#about{
+  font-size: 1.1em;
+  padding-left: 45px;
+  
+}
+pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+#bio{
+    margin-left: 72px;
+}
