@@ -1,0 +1,64 @@
+#Mbox{
+    width:100%;
+    text-align:center;
+    
+}
+
+
+ .box{
+    width:28%;
+    height:70vh;
+    display:inline-block;
+    margin:20px 10px;
+    vertical-align:top;
+    border: 0.1px solid rgba(128, 128, 128, 0.626);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.box:hover{
+    outline: 3px solid royalblue;
+    outline-offset: 3px;
+    box-shadow: 0 0 30px rgba(65, 105, 225, 0.5);
+     transform:translateY(-3px);
+}
+h3{
+    color: green;
+}
+
+.Pbox{
+    width:80%;
+    height:180px;
+    margin:20px auto;
+    
+}
+#Laptop{
+    background-image: url(Macbook.jpg);
+    background-size: cover;
+}
+#Mobile{
+    background-image: url(Iphone.jfif);
+    background-size: cover;
+}
+#HeadPhone{
+    background-image: url(Sony.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+button{
+    background-color:#1a73e8;
+    color:white;
+    border:none;
+    padding:12px 30px;
+    font-weight:bold;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+button:hover{
+    background:#1558b0;
+    transform:translateY(-5px);
+    box-shadow:0 6px 15px rgba(26,115,232,.35);
+}
+
+
