@@ -32,15 +32,15 @@ h3{
     
 }
 #Laptop{
-    background-image: url(Macbook.jpg);
+    background-image: url(/CSS_Task/Image/Macbook.jpg);
     background-size: cover;
 }
 #Mobile{
-    background-image: url(Iphone.jfif);
+    background-image: url(/CSS_Task/Image/Iphone.jfif);
     background-size: cover;
 }
 #HeadPhone{
-    background-image: url(Sony.jfif);
+    background-image: url(/CSS_Task/Image/Sony.jfif);
     background-size: contain;
     background-repeat: no-repeat;
 }
