@@ -1,0 +1,16 @@
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+    border: 1px solid rgb(180, 112, 24) ;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    left: 80%;
+    z-index: 100;
+}
+#box:hover{
+    background-color: rgb(103, 62, 8);
+    color: white;
+}
