@@ -1,18 +1,52 @@
 #card{
-    height:600px;
-    width:800px;
-    border: 1px solid black;
+    height:500px;
+    width:600px;
+    border: 2px solid rgb(25, 155, 178);
+    border-radius: 20px; 
+    background-color: rgb(213, 223, 253);
+    margin-left: 25%; 
+    margin-top: 40px; 
+     box-shadow:0 0px 13px rgb(9, 109, 126);
+}
+#new{
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 68%;
+    background-color: rgb(160, 179, 236);
+    border-radius: 10px;
+    transition: 0.4s;
     
 }
 #profile{
-    border: 1px solid black;
+    
     height: 200px;
     width: 200px;
     position: relative;
     top: 20px;
-    left:300px;
+    left:200px;
     border-radius: 50%;
     background-image: url(profilePhoto.jpeg);
     background-size: cover;
+}
+.txt{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+#p{
+    position: relative;
+    top: 60px;
+}
+#new:hover{
+     transform: translateY(-4px);
+     cursor: pointer;
+     background-color: rgb(77, 117, 238);
+     color: azure;
+     box-shadow: 0 4px 8px rgb(77, 117, 238) ;
 }
 
