@@ -1,0 +1,178 @@
+#mainBox{
+  display:flex;
+  gap: 4px;
+   
+}
+
+#Side{
+     width: 20%;
+     
+     
+     border-radius: 10px;
+     background-color: rgb(196, 207, 239);
+       
+}
+#Side h2{
+    color: rgb(12, 69, 238);
+}
+
+#Main{
+    width: 59%;
+    
+   background-color: rgb(224, 243, 224);
+    border-radius: 10px;
+    
+}
+#Main h2{
+    color: rgb(2, 82, 2);
+}
+
+#Advertise{
+     width: 20%;
+     
+     
+     border-radius: 10px;
+     background-color: rgb(241, 228, 205);
+     text-align: center;
+}
+#Advertise h2{
+    color:rgb(206, 135, 4);
+}
+#head{
+    text-align: center;
+}
+#list{
+    margin-top: 50px;
+    font-size: 20px;
+}
+li{
+    margin-top: 35px;
+    
+}
+#sideDis{
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+    padding: 15px;
+}
+
+#photo{
+    height: 40vh;
+    width: 30vw;
+    
+    margin-top: 50px;
+    margin-left: 20px;
+    background-image: url(/CSS_Task/Image/AIUB.jfif);
+    background-size: cover;
+}
+#news_content{
+    display: flex;
+     gap: 20px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+#news{
+    width:55%;
+    margin-top: 20px;
+    padding: 10px;
+}
+.Lnews{
+    margin-left: 20px;
+    
+}
+#LNews{
+    position: relative;
+    top: 20px;
+}
+.line{
+    width: 85%;
+    height: 3px;
+    background: green;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+#button1{
+    height: 40px;
+    width: 90px;
+    border: none;
+    background-color: green;
+    color: azure;
+    margin-left: 50px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 30px;
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+#button1 a{
+    text-decoration: none;
+    color: azure;
+}
+#line1{
+    width: 85%;
+    height: 3px;
+    background: rgb(108, 139, 232);
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#Advertise h2{
+    text-align: center;
+}
+ #line2{
+     width: 85%;
+    height: 3px;
+    background: orange;
+    margin-top: 12px;
+    margin-left: 20px;
+ }
+
+ #box{
+    height: 30vh;
+    width:80%;
+    border: 1.5px dashed orange;
+    margin-top: 100px;
+    margin-left: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ #box h3{
+     color:#c25a00;
+     position: relative;
+     top: 20px;
+ }
+#Ad_p {
+    margin-top: 100px;
+    padding: 20px;
+}
+#button2{
+     height: 40px;
+    width: 90px;
+    border: none;
+    background-color: rgb(230, 153, 12);
+    color: azure;
+    /* margin-left: 50px; */
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+#button1:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px green;
+    cursor: pointer;
+}
+#button2:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px orange;
+    cursor: pointer;
+}
+li:hover{
+    cursor: pointer;
+    color: royalblue;
+    font-weight: bolder;
+}
+
+
