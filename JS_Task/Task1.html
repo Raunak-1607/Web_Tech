@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form Page</title>
+    <script src="./Task1.js" defer></script>
+    <style>
+         body{
+            font-family: Arial;
+            margin:40px;
+        }
+
+        input{
+            width:250px;
+            padding:10px;
+            margin-top:5px;
+        }
+
+        button{
+            margin-top:15px;
+            padding:10px;
+            border-radius: 10px;
+            outline: none;
+            border: 2px solid royalblue;
+            margin-left: 90px;
+        }
+
+        .error{
+            color:red;
+            font-size:14px;
+            margin-bottom:18px;
+        }
+
+    </style>
+</head>
+<body>
+    <caption><h1>Student Form</h1></caption>
+    <form id="studentForm">
+        Full Name<br>
+        <input id="fullname" type="text" placeholder="Enter your name">
+        <div id="nameError" class="error"></div>
+
+        Email<br>
+        <input id="email" type="email" placeholder="Enter your email">
+        <div class="error" id="emailError"></div>
+
+        Password<br>
+        <input id="password" type="password" placeholder="enter your password">
+        <div class="error" id="passwordError"></div>
+
+        Confirm password<br>
+        <input id="Cpassword" type="password" placeholder="enter again your password">
+        <div class="error" id="CpasswordError"></div>
+
+        Phone Number<br>
+        <input id="Pnumber" type="number" >
+        <div class="error" id="numberError"></div>
+            
+        <button id="btn">Submit</button>
+    </form>
+
+    
+    <div id="success"></div>
+    
+</body>
+</html>
