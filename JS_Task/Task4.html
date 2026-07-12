@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Table</title>
+
+    <script src="./Task4.js" defer></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 250px;
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            outline: none;
+            border: 2px solid royalblue;
+            margin-left: 90px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Student Registration</h1>
+
+    <form id="studentForm">
+
+        Name <br>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <br><br>
+
+        ID <br>
+        <input type="number" id="id" placeholder="Enter your id">
+
+        <br><br>
+
+        Department:
+
+        <input type="radio" id="cse" name="Department" value="CSE"> CSE
+
+        <input type="radio" id="eee" name="Department" value="EEE"> EEE
+
+        <input type="radio" id="bba" name="Department" value="BBA"> BBA
+
+        <br>
+
+        <button type="submit" id="btn">Add Student</button>
+
+    </form>
+    <br>
+    <br>
+    <br>
+
+    <table id="studenttable" border="3" cellpadding="5">
+        <caption>Student Table</caption>
+        <tr>
+            <th>Student Name</th>
+            <th>Student ID</th>
+            <th>Department</th>
+        </tr>
+    </table>
+
+</body>
+
+</html>
