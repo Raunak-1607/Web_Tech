@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Registration Form</title>
+
+    <script src="./Task8.js" defer></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+        }
+
+        #rollField,
+        #departmentField {
+            display: none;
+            margin-top: 20px;
+        }
+
+        input,
+        select {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Smart Registration Form</h1>
+
+    <label>Select User Type:</label>
+
+    <select id="userType">
+        <option value="">Select User Type</option>
+        <option value="Student">Student</option>
+        <option value="Teacher">Teacher</option>
+    </select>
+
+
+    <div id="rollField">
+        <label>Roll Number:</label>
+        <input type="number" placeholder="Enter Roll Number">
+    </div>
+
+
+    <div id="departmentField">
+        <label>Department:</label>
+        <input type="text" placeholder="Enter Department">
+    </div>
+
+</body>
+
+</html>
