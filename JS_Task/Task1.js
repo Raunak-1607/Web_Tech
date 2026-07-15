@@ -16,22 +16,27 @@ form.addEventListener("submit",(event)=>{
     document.getElementById("numberError").innerText= "";
 
     let valid = true;
+    const namePattern = /^[A-Za-z ]+$/;
 
-    if(fullname==""){
+    if(fullname=="" || !namePattern.test(fullname)){
         document.getElementById("nameError").innerText="Invalid Name";
         valid=false;
     }
+
+    
+
 
      if(!email.includes("@") || !email.includes(".")){
         document.getElementById("emailError").innerText="Invalid Email";
         valid=false;
     }
+     
+    const passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*]).{6,}$/;
 
-
-    if(password.length<6){
-        document.getElementById("passwordError").innerText="Password must be at least 6 characters";
-        valid = false;
-    }
+   if (!passwordPattern.test(password)) {
+    document.getElementById("passwordError").innerText = "Password must contain uppercase, lowercase, number, special character and at least 6 characters";
+    valid = false;
+}
 
     if(password!==Cpassword){
         document.getElementById("CpasswordError").innerText="Do not match password";
